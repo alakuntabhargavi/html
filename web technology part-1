@@ -1,0 +1,154 @@
+Create a web page having the background in green and title “My First Page”. 
+code:
+    <html>
+<head>
+<title> My First Page</title>
+</head>
+<body bgcolor="green";>
+
+</body>
+</html>
+********************************************************************************************
+b. Create a web page of pink colour and display a moving message in red colour.
+code:
+   <html>
+<head>
+<title> My First Page</title>
+</head>
+<body bgcolor="pink";>
+<h2 style="color:red"><marquee direction="right"> R.V.R & J.C</marquee></h2> 
+</body>
+</html>
+****************************************************************************************************************************
+c. Design a web page containing text, in form of paragraphs giving suitable heading style
+code:
+     <html>
+<head>
+<title> My First Page</title>
+</head>
+<body>
+<h1 style="color:red">Web Technology</h1>
+<p style="color:blue">Web Technology refers to the various tools and techniques
+that are utilized in the process of communication between different types of devices over the internet. 
+A web browser is used to access web pages. 
+Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. 
+Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.</p>
+</body>
+</html>
+**************************************************************************************************************************************
+ Create a web page which displays WELCOME text using heading tags(h1 to h6)
+ code:
+    <html>
+<head>
+  <title>Web Technology</title>
+</head>
+<body>
+<h1>WELCOME</h1>
+<h2>WELCOME</h2>
+<h3>WELCOME</h3>
+<h4>WELCOME</h4>
+<h5>WELCOME</h5>
+<h6>WELCOME</h6>
+</body>
+</html>
+************************************************************************************************************
+b. Create a web page which displays WELCOME text using <b> tag 
+code:
+   <html>
+<head>
+  <title>Web Technology</title>
+</head>
+<body>
+<h1><b>WELCOME</b></h1>
+</body>
+</html>
+************************************************************************************************
+c. Create a web page which displays h2o and x2+y2 using <sup> tag and <sub> tag
+code:
+   <html>
+<head>
+  <title>Web Technology</title>
+</head>
+<body>
+<h1>H<sub>2</sub>O</h1>
+<h1>X<sup>2</sup>+y<sup>2</sup></h1>
+</body>
+</html>
+*******************************************************************************************************
+ a. Create a web page to show different attributes of Font tag. 
+ code:
+    <html>
+<head>
+  <title>Web Technology</title>
+</head>
+<body>
+<font size=10px face="Comic sans MS" color="red"><b>WELCOME</font>
+</body>
+</html>
+*************************************************************************************************************
+ b. Create a web page to show different attributes: italics, bold, underline. 
+ code:
+   <html>
+<head>
+  <title>Web Technology</title>
+</head>
+<body>
+<h3><b> bold</b></h3>
+<h1><i> italic</i></h1>
+<h2><u>underline</u></h2>
+</body>
+</html>
+****************************************************************************************************
+c. Design a web page having background colour yellow and giving text colour red 
+code:
+   <html>
+<head>
+<title> My First Page</title>
+</head>
+<body bgcolor="yellow";>
+<h1 style="color:red"> R.V.R & J.C</h1> 
+</body>
+</html>
+******************************************************************************************
+a. Create a web page using href attribute of anchor tag & the attribute: alink, vlink etc. 
+code:
+    <html>
+<head>
+</head>
+<body vlink = "red" alink = "blue">
+<a href="http://courses.rvrjcce.ac.in/moodle/login/index.php"> rvr web page </a>
+</body>
+</html>
+******************************************************************************************************************
+b. Create links on the words e.g. ―Wi-Fi and ―LAN‖ to link them to Wikipedia pages. 
+code:
+   <html>
+<body>
+<a href="https://en.wikipedia.org/wiki/Wi-Fi" target="blank"> -Wi Fi</a><br>
+<a href="https://en.wikipedia.org/wiki/Local_area_network" target="blank"> LAN</a>
+</html>
+**********************************************************************************************************************
+c. Create a web page with appropriate content and insert an image towards the left hand side of the
+page. When user clicks on the image, it should open another Web page.
+code:
+    <html>
+<body>
+<img src="savitri.jpg" style="cursor: pointer;" onclick=window.open("4c1.html")></img>
+</html>
+*********************************************************************************************************
+a. Create a web page, showing an ordered list of the names of five of your friends. 
+code:
+   <html>
+<body>
+<ol style="color:red"><b><i>
+  <li> Vyshnavi</li>
+  <li> Shyamla</li>
+  <li> Chandana</li>
+  <li> Bhuma Sirisha</li>
+  <li> Durga</li>
+</i></b></ol>
+</body>
+</html>
+**********************************************************************************************************************
+b. Create a web page containing a nested list showing the content page of any book
+code:
