@@ -152,3 +152,275 @@ code:
 **********************************************************************************************************************
 b. Create a web page containing a nested list showing the content page of any book
 code:
+ ************************************************************************************************************************************************
+ c. Create a web page, showing an unordered list of names of five of your friends
+ code:
+    <html>
+<body>
+<ul style="color:red"><b><i>
+  <li> Vyshnavi</li>
+  <li> Shyamla</li>
+  <li> Chandana</li>
+  <li> Bhuma Sirisha</li>
+  <li> Durga</li>
+</i></b></ul>
+</body>
+</html>
+**************************************************************************************************************
+a. Create a table to show your class timetable using rowspan and colspan attributes. 
+code:
+   <html>
+<body bgcolor="black">
+<center>
+<table border=2 bgcolor="white">
+<caption>cse-A timetable</caption>
+ <tr>
+  <th>time/day</th>
+  <th>8:00</th>
+  <th>9:00</th>
+  <th>10:00</th>
+  <th>11:00</th>
+  <th>12:00</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th colspan=2>wt lab</th>
+  <th rowspan=6>Break</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+</table>
+<table border=2 bgcolor="green">
+<caption>cse-B timetable</caption>
+ <tr>
+  <th>time/day</th>
+  <th>8:00</th>
+  <th>9:00</th>
+  <th>10:00</th>
+  <th>11:00</th>
+  <th>12:00</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>dbms</th>
+  <th rowspan=6>Break</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+</table>
+<table border=2 bgcolor="red">
+<caption>cse-C timetable</caption>
+ <tr>
+  <th>time/day</th>
+  <th>8:00</th>
+  <th>9:00</th>
+  <th>10:00</th>
+  <th>11:00</th>
+  <th>12:00</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>dbms</th>
+  <th rowspan=6>Break</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+<tr>
+  <th>MON</th>
+  <th>wt</th>
+  
+  <th>os</th>
+  <th>cs</th>
+  <th>se</th>
+</tr>
+</table>
+</center>
+</body>
+</html>
+*************************************************************************************************************************
+b. Use tables to provide layout to your HTML page describing your college infrastructure. 
+code:
+   <html>
+<body >
+<center>
+<table border=1 pading=5 width=50% align="center">
+<tr>
+   <th colspan="2"><h2><centre>R.V.R & J.C main block</centre></h2></th>
+ </tr>
+</table>
+</body>
+</html>
+**********************************************************************************************************
+Create a web page in the following table fields
+code:
+   <html>
+<body >
+<center>
+<table border=2 >
+ <tr>
+  <th rowspan="2">name of the train</th>
+  <th rowspan="2">place</th>
+  <th rowspan="2">destination</th>
+  <th rowspan="2">train no</th>
+  <th colspan="2">time</th>
+  <th rowspan="2">fair</th>
+</tr>
+<tr>
+<th>arrival</th>
+<th>departure</th>
+</tr
+</table>
+</center>
+</body>
+</html>
+******************************************************************************************************************
+a. Develop a web page having two frames that divide the Web page into two equal rows. 
+code:
+   <html>
+<frameset rows="100,100">
+<frame src="frame1.html">
+<frame src="frame2.html">
+</frameset>
+</html>
+1.html
+ <html>
+<body>
+<h3>frame 1</h3>
+</body>
+</html>
+2.html
+ <html>
+<body>
+<h3>frame 2</h3>
+</body>
+</html>
+********************************************************************************************************
+Develop a web page having two frames that divide the Web page into two equal rows and
+then divide the second row into two equal columns. 
+code:
+         <html>
+<frameset rows="100,100">
+<frame src="frame1.html">
+  <frameset cols="50%,50%">
+<frame src="frame2.html">
+<frame src="frame3.html">
+</frameset>
+</html>
+**************************************************************************************
+c. Develop a web page having frames as described in the above web page and then fill each
+frame with a different background colour 
+code:
+   <html>
+<frameset rows="100,100">
+<frame src="frame1.html" style="background-color :gray">
+  <frameset cols="50%,50%">
+<frame src="frame2.html" style="background-color :pink">
+<frame src="frame3.html" style="background-color :hotpink">
+</frameset>
+</html>
+********************************************************************************************************
